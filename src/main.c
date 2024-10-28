@@ -75,10 +75,10 @@ void setup(void) {
     proj_matrix = mat4_make_perspective(fov, aspect, znear, zfar);
 
     // Loads the vertex and face values for the mesh data structure
-    load_obj_file_data("./assets/crab.obj");
+    load_obj_file_data("./assets/f117.obj");
 
     // Load the texture information from an external PNG file
-    load_png_texture_data("./assets/crab.png");
+    load_png_texture_data("./assets/f117.png");
 }
 
 ///////////////////////////////////////////////////////////////////////////////
